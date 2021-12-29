@@ -12,9 +12,11 @@ namespace Cadastro.Core.Domain.Model.Organizadores
         public string Nome { get; set; }
         public NomeCompleto Responsavel { get; set; }
 
-        public Organizador(OrganizadorId id)
+        public Organizador(OrganizadorId organizadorId, string nome, NomeCompleto responsavel)
         {
-            Id = id;
+            Id = organizadorId;
+            Nome = nome;
+            Responsavel = responsavel;
         }
     }
 }
