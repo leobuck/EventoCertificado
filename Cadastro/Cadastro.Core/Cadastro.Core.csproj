@@ -44,11 +44,15 @@
     <Compile Include="Domain.Model\Eventos\Evento.cs" />
     <Compile Include="Domain.Model\Eventos\EventoId.cs" />
     <Compile Include="Domain.Model\Eventos\Participante.cs" />
-    <Compile Include="Domain.Model\Eventos\Periodo.cs" />
-    <Compile Include="Domain.Model\Organizadores\NomeCompleto.cs" />
     <Compile Include="Domain.Model\Organizadores\Organizador.cs" />
     <Compile Include="Domain.Model\Organizadores\OrganizadorId.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NucleoCompartilhado\Nucleo.Core\Nucleo.Core.csproj">
+      <Project>{C94244DD-D704-4682-A0B3-6C35BF4AEE62}</Project>
+      <Name>Nucleo.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
