@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain.Model\Organizadores\NomeCompleto.cs" />
+    <Compile Include="Domain.Model\Organizadores\Organizador.cs" />
+    <Compile Include="Domain.Model\Organizadores\OrganizadorId.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

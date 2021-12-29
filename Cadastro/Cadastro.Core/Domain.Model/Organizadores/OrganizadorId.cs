@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace Cadastro.Core.Domain.Model.Organizadores
 {
-    public class Organizador
+    public class OrganizadorId
     {
-        public OrganizadorId Id { get; private set; }
-        public string Nome { get; set; }
-        public NomeCompleto Responsavel { get; set; }
+        public Guid Id { get; protected set; }
 
-        public Organizador(OrganizadorId id)
+        public OrganizadorId()
+        {
+            Id = Guid.NewGuid();
+        }
+
+        public OrganizadorId(Guid id)
         {
             Id = id;
         }
