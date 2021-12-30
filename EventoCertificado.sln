@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nucleo.Core", "NucleoCompar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Testes", "Cadastro\Cadastro.Testes\Cadastro.Testes.csproj", "{6E79CFE4-C523-4218-999C-78DC320A71AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Data", "Cadastro.Data\Cadastro.Data.csproj", "{C60F8093-CF97-489A-97AB-6E8F7B657509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{6E79CFE4-C523-4218-999C-78DC320A71AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E79CFE4-C523-4218-999C-78DC320A71AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E79CFE4-C523-4218-999C-78DC320A71AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60F8093-CF97-489A-97AB-6E8F7B657509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60F8093-CF97-489A-97AB-6E8F7B657509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60F8093-CF97-489A-97AB-6E8F7B657509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60F8093-CF97-489A-97AB-6E8F7B657509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{32126F26-3AD1-4136-B885-96B1AEA75542} = {B87EF777-30E2-4E9C-A63C-C245CE7F9A0E}
 		{C94244DD-D704-4682-A0B3-6C35BF4AEE62} = {1754688E-A131-472E-AD2B-DAA3C12B9C95}
 		{6E79CFE4-C523-4218-999C-78DC320A71AA} = {DF1E2AE0-CDA7-4FA9-A234-1591E3D6F9AC}
+		{C60F8093-CF97-489A-97AB-6E8F7B657509} = {DF1E2AE0-CDA7-4FA9-A234-1591E3D6F9AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A97FA793-5D46-4B33-A372-920991B44DF6}

@@ -12,12 +12,19 @@ namespace Cadastro.Core.Domain.Model.Organizadores
         public OrganizadorId Id { get; private set; }
         public string Nome { get; set; }
         public NomeCompleto Responsavel { get; set; }
+        public bool Ativo { get; private set; }
+        public DateTime DataCadastro { get; private set; }
 
         public Organizador(OrganizadorId organizadorId, string nome, NomeCompleto responsavel)
         {
             Id = organizadorId;
             Nome = nome;
             Responsavel = responsavel;
+        }
+
+        public bool IsValid()
+        {
+            return true;
         }
     }
 }
