@@ -56,6 +56,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\NucleoCompartilhado\Nucleo.Core\Nucleo.Core.csproj">
+      <Project>{C94244DD-D704-4682-A0B3-6C35BF4AEE62}</Project>
+      <Name>Nucleo.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Cadastro.Core\Cadastro.Core.csproj">
       <Project>{33c40825-63ac-4d35-ae20-1956adb8611d}</Project>
       <Name>Cadastro.Core</Name>

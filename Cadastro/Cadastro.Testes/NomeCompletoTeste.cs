@@ -1,5 +1,5 @@
-﻿using Cadastro.Core.Domain.Model.Organizadores;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Nucleo.Core;
 using System;
 
 namespace Cadastro.Testes
